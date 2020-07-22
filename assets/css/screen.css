@@ -456,15 +456,6 @@ body {
     transition: opacity 0.3s cubic-bezier(.33,0,.2,1);
 }
 
-.post-card-title {
-    margin: 0;
-    display: inline-block;
-    font-size: 3.4rem;
-    max-width: 70%;
-    text-align: center;
-    transition: all 0.3s cubic-bezier(.33,0,.2,1);
-}
-
 /* Posts without images */
 .post-card.no-image:before {
     display: block;
