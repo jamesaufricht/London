@@ -48,6 +48,8 @@
                         {{/if}}
                         {{#if @site.twitter}}
                         <a href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">Twitter</a>
+                        {{/if}}
+                        <a href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">RSS</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +110,6 @@
                 $('body').toggleClass('site-head-open');
             });
         });
-
         // Initiate Swup transitions
         var swup = new Swup({
             plugins: [new SwupHeadPlugin(), new SwupScriptsPlugin()],
