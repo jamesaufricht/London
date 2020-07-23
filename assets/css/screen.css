@@ -246,19 +246,6 @@ body {
     opacity: 1;
 }
 
-.rss-button {
-    opacity: 0.4;
-}
-
-.rss-button:hover {
-    opacity: 1;
-}
-
-.rss-button svg {
-    margin-bottom: 1px;
-    height: 2.1rem;
-    fill: var(--color-base);
-}
 
 
 /* Mobile Nav Menu
